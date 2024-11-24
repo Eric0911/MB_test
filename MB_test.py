@@ -86,3 +86,5 @@ with open(output_file, "a", encoding="utf-8") as file:
     file.write(f"{list(Test_Info_Data.keys())[19]} Use Manual mode: spent {0} seconds\n\n")
     file.write(f"{Test_Info_Data["CM_SN"]};\n")
     file.write(f"{list(Test_Info_Data.keys())[1]} Use Manual mode: spent {0} seconds\n\n")
+
+#做版本變更用
