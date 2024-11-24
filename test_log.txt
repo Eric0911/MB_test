@@ -1,0 +1,34 @@
+=============== Test_Info ===============
+MES_Status: 123
+CM_SN: 456
+Owner_SN: 789
+Model: 147
+OPID: 258
+MAC: How to get
+SAS: NA
+IPMI: How to get
+IB: NA
+1394: NA
+ServerTime: 20241125001632
+Work_Order: 456
+PCB: How to get
+ECO: NA
+Work_State: How to get
+IntelSN: NA
+OP Request: NA
+PBA: NA
+TA: NA
+Fix Number: How to get
+OS detail: 
+Ubuntu
+24.04.1 LTS (Noble Numbat)
+=============================================
+258;
+OPID Use Manual mode: spent 0 seconds
+
+How to get;
+Fix Number Use Manual mode: spent 0 seconds
+
+456;
+CM_SN Use Manual mode: spent 0 seconds
+
