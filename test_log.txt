@@ -1,5 +1,5 @@
 =============== Test_Info ===============
-MES_Status: 123
+MES_Status: git status
 CM_SN: 456
 Owner_SN: 789
 Model: 147
@@ -9,7 +9,7 @@ SAS: NA
 IPMI: How to get
 IB: NA
 1394: NA
-ServerTime: 20241125004828
+ServerTime: 20241125232505
 Work_Order: 456
 PCB: How to get
 ECO: NA
@@ -31,4 +31,9 @@ Fix Number Use Manual mode: spent 0 seconds
 
 456;
 CM_SN Use Manual mode: spent 0 seconds
+
+---------------------------------------------
+                wTIME10_None                 
+             2024/11/25 23:25:05             
+---------------------------------------------
 

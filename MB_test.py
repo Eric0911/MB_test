@@ -1,4 +1,5 @@
 import subprocess
+from datetime import datetime
 
 Test_Info = "=" * 15+ " Test_Info " +"=" * 15
 Test_Info_Data = {
@@ -76,8 +77,7 @@ os_version = os_info.get("VERSION")
 #新增ubuntu資訊;a:新增檔案內的資訊
 with open(output_file, "a", encoding="utf-8") as file:
     file.write(f"{os_name}\n{os_version}\n")
-    file.write("=" * 45)
-    file.write("\n")
+    file.write("=" * 45 + "\n")
     #取得Test_Info_Data["OPID"]的value
     file.write(f"{Test_Info_Data["OPID"]};\n")
     #先把Test_Info_Data.keys()轉成list，再取出對應索引值的key
@@ -87,4 +87,11 @@ with open(output_file, "a", encoding="utf-8") as file:
     file.write(f"{Test_Info_Data["CM_SN"]};\n")
     file.write(f"{list(Test_Info_Data.keys())[1]} Use Manual mode: spent {0} seconds\n\n")
 
-#做版本變更用
+#wTIME10_None測項
+with open(output_file, "a", encoding="utf-8") as file:
+    file.write("-" * 45 + "\n")
+    test_item = "wTIME10_None"
+    file.write(f"{test_item: ^45}\n")
+    current_time = datetime.now()
+    file.write(f"{current_time.strftime("%Y/%m/%d %H:%M:%S"): ^45}\n")
+    file.write("-" * 45 + "\n\n")
